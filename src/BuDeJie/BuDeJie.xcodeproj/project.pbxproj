@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CB3D29268FE7FC0070D3B5 /* XMGFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */; };
+		00CB3D2D268FF1B20070D3B5 /* XMGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */; };
+		00CB3D2E268FF1B20070D3B5 /* XMGTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */; };
 		700334B01C92758C00B04292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700334AE1C92758C00B04292 /* Main.storyboard */; };
 		700334B21C92758C00B04292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700334B11C92758C00B04292 /* Assets.xcassets */; };
 		700334B51C92758C00B04292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700334B31C92758C00B04292 /* LaunchScreen.storyboard */; };
@@ -71,6 +74,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CB3D27268FE7FC0070D3B5 /* XMGFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFileTool.h; sourceTree = "<group>"; };
+		00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFileTool.m; sourceTree = "<group>"; };
+		00CB3D2A268FF1B20070D3B5 /* XMGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTestViewController.h; sourceTree = "<group>"; };
+		00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTestViewController.m; sourceTree = "<group>"; };
+		00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTestViewController.xib; sourceTree = "<group>"; };
 		0F9698F3A252EB2F21E0916F /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		700334A21C92758C00B04292 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700334AF1C92758C00B04292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -179,6 +187,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CB3D25268FE7FC0070D3B5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				00CB3D26268FE7FC0070D3B5 /* File */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		00CB3D26268FE7FC0070D3B5 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				00CB3D27268FE7FC0070D3B5 /* XMGFileTool.h */,
+				00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 		0BE1C411555DB0301DBB000E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +266,7 @@
 		700334CA1C92A96D00B04292 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				00CB3D25268FE7FC0070D3B5 /* Tool */,
 				70CB982A1C940269003A01DD /* AD(广告) */,
 				70CB98231C93CAED003A01DD /* Setting(设置) */,
 				700334F41C92B7DC00B04292 /* Main(主要) */,
@@ -306,6 +332,9 @@
 				7019DB6A1C97F3B900E614F4 /* XMGLoginRegisterViewController.h */,
 				7019DB6B1C97F3B900E614F4 /* XMGLoginRegisterViewController.m */,
 				7019DB6C1C97F3B900E614F4 /* XMGLoginRegisterViewController.xib */,
+				00CB3D2A268FF1B20070D3B5 /* XMGTestViewController.h */,
+				00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */,
+				00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -704,6 +733,7 @@
 				70AB495B1C9935CF0044E502 /* XMGWebViewController.xib in Resources */,
 				70432A771C97F8DD008E4679 /* XMGLoginRegisterView.xib in Resources */,
 				70CB983C1C940868003A01DD /* LaunchImage-700-568h@2x.png in Resources */,
+				00CB3D2E268FF1B20070D3B5 /* XMGTestViewController.xib in Resources */,
 				70CB983E1C940868003A01DD /* LaunchImage-800-667h@2x.png in Resources */,
 				70CB983B1C940868003A01DD /* LaunchImage-568h@2x.png in Resources */,
 				70CB98401C940868003A01DD /* LaunchImage.png in Resources */,
@@ -772,6 +802,7 @@
 				70A7421B1C93A99400BFA6FA /* XMGTabBar.m in Sources */,
 				70D569211C98EB1000B36123 /* XMGLoginField.m in Sources */,
 				70432A751C97F8C8008E4679 /* XMGLoginRegisterView.m in Sources */,
+				00CB3D29268FE7FC0070D3B5 /* XMGFileTool.m in Sources */,
 				70CB981F1C93C341003A01DD /* UIBarButtonItem+Item.m in Sources */,
 				70D569241C98F16C00B36123 /* UITextField+Placeholder.m in Sources */,
 				7097A18A1C9905E900231962 /* XMGSquareItem.m in Sources */,
@@ -797,6 +828,7 @@
 				700334E41C92A96D00B04292 /* main.m in Sources */,
 				700334E31C92A96D00B04292 /* AppDelegate.m in Sources */,
 				70CB981B1C93B788003A01DD /* UIView+Frame.m in Sources */,
+				00CB3D2D268FF1B20070D3B5 /* XMGTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
