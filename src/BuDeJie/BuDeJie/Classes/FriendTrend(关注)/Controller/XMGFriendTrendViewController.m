@@ -8,7 +8,6 @@
 
 #import "XMGFriendTrendViewController.h"
 #import "XMGLoginRegisterViewController.h"
-#import "XMGTestViewController.h"
 #import "UITextField+Placeholder.h"
 @interface XMGFriendTrendViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textField;
@@ -38,11 +37,9 @@
 - (IBAction)clickLoginRegister:(id)sender {
     
     // 进入到登录注册界面
-//    XMGLoginRegisterViewController *loginVc = [[XMGLoginRegisterViewController alloc] init];
-//    [self presentViewController:loginVc animated:YES completion:nil];
-
-    XMGTestViewController *loginVc = [[XMGTestViewController alloc] init];
+    XMGLoginRegisterViewController *loginVc = [[XMGLoginRegisterViewController alloc] init];
     [self presentViewController:loginVc animated:YES completion:nil];
+    
 }
 
 #pragma mark - 设置导航条

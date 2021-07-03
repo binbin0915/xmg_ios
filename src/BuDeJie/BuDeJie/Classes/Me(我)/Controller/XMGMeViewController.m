@@ -41,17 +41,36 @@ static CGFloat const margin = 1;
     
     // 处理cell间距,默认tableView分组样式,有额外头部和尾部间距
     self.tableView.sectionHeaderHeight = 0;
-    self.tableView.sectionFooterHeight = 10;
+    self.tableView.sectionFooterHeight = XMGMarin;
     
-    self.tableView.contentInset = UIEdgeInsetsMake(-25, 0, 0, 0);
+    self.tableView.contentInset = UIEdgeInsetsMake(XMGMarin - 35, 0, 0, 0);
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tabBarButtonDidRepeatClick) name:XMGTabBarButtonDidRepeatClickNotification object:nil];
 }
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+#pragma mark - 监听
+/**
+ *  监听tabBarButton重复点击
+ */
+- (void)tabBarButtonDidRepeatClick
+{
+    if (self.view.window == nil) return;
+    
+    XMGFunc
+}
 
 #pragma mark - 请求数据
 - (void)loadData
 {
     // 1.创建请求会话管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
+    mgr.responseSerializer.acceptableContentTypes =[NSSet setWithObjects:@"application/json", @"application/problem+json", @"text/javascript",@"text/html", nil ,nil];
+
     
     // 2.拼接请求参数
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
@@ -59,7 +78,7 @@ static CGFloat const margin = 1;
     parameters[@"c"] = @"topic";
     
     // 3.发送请求
-    [mgr GET:@"https://www.fastmock.site/mock/509bb30c24bf348152f52f21ad121980/api/topic/square" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *  _Nullable responseObject) {
+    [mgr GET:XMGCommonURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary *  _Nullable responseObject) {
    
         NSArray *dictArr = responseObject[@"square_list"];
         

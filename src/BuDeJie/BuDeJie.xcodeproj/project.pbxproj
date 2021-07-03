@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CB3D29268FE7FC0070D3B5 /* XMGFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */; };
-		00CB3D2D268FF1B20070D3B5 /* XMGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */; };
-		00CB3D2E268FF1B20070D3B5 /* XMGTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */; };
+		5DDF301891A369FF494ABBB4 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C862AF191D7907170D991C2 /* libPods-BuDeJie.a */; };
 		700334B01C92758C00B04292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700334AE1C92758C00B04292 /* Main.storyboard */; };
 		700334B21C92758C00B04292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700334B11C92758C00B04292 /* Assets.xcassets */; };
 		700334B51C92758C00B04292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700334B31C92758C00B04292 /* LaunchScreen.storyboard */; };
@@ -23,6 +21,11 @@
 		700334F31C92AA0B00B04292 /* XMGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700334F21C92AA0B00B04292 /* XMGPublishViewController.m */; };
 		700334FA1C92B7FA00B04292 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700334F91C92B7FA00B04292 /* XMGTabBarController.m */; };
 		700334FE1C92BEE000B04292 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 700334FD1C92BEE000B04292 /* UIImage+Image.m */; };
+		70085CE01CAA0F0A00C08708 /* XMGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70085CDF1CAA0F0A00C08708 /* XMGRefreshHeader.m */; };
+		70085CE31CAA110700C08708 /* XMGTestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70085CE21CAA110700C08708 /* XMGTestHeader.m */; };
+		70085CE61CAA121E00C08708 /* XMGDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70085CE51CAA121E00C08708 /* XMGDIYHeader.m */; };
+		70085CE91CAA16B600C08708 /* XMGDIYFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 70085CE81CAA16B600C08708 /* XMGDIYFooter.m */; };
+		70085CEC1CAA17E900C08708 /* XMGHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70085CEB1CAA17E900C08708 /* XMGHTTPSessionManager.m */; };
 		700BD5611C9806F700B4E90B /* XMGFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700BD5601C9806F700B4E90B /* XMGFastLoginView.m */; };
 		700BD5631C98070100B4E90B /* XMGFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700BD5621C98070100B4E90B /* XMGFastLoginView.xib */; };
 		700BD5661C98099200B4E90B /* XMGFastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 700BD5651C98099200B4E90B /* XMGFastButton.m */; };
@@ -35,8 +38,23 @@
 		7019DB691C97EC2000E614F4 /* XMGFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7019DB681C97EC2000E614F4 /* XMGFriendTrendViewController.xib */; };
 		7019DB6D1C97F3B900E614F4 /* XMGLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7019DB6B1C97F3B900E614F4 /* XMGLoginRegisterViewController.m */; };
 		7019DB6E1C97F3B900E614F4 /* XMGLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7019DB6C1C97F3B900E614F4 /* XMGLoginRegisterViewController.xib */; };
+		7021DC581CA90E1600B1AC2A /* XMGTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021DC571CA90E1600B1AC2A /* XMGTopicViewController.m */; };
 		70432A751C97F8C8008E4679 /* XMGLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70432A741C97F8C8008E4679 /* XMGLoginRegisterView.m */; };
 		70432A771C97F8DD008E4679 /* XMGLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70432A761C97F8DD008E4679 /* XMGLoginRegisterView.xib */; };
+		704601881C99536100243B72 /* XMGFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 704601871C99536100243B72 /* XMGFileTool.m */; };
+		704A2C591C9BB17700E58C76 /* XMGTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C581C9BB17700E58C76 /* XMGTitleButton.m */; };
+		704A2C771C9BF27600E58C76 /* XMGAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C6E1C9BF27600E58C76 /* XMGAllViewController.m */; };
+		704A2C781C9BF27600E58C76 /* XMGPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C701C9BF27600E58C76 /* XMGPictureViewController.m */; };
+		704A2C791C9BF27600E58C76 /* XMGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C721C9BF27600E58C76 /* XMGVideoViewController.m */; };
+		704A2C7A1C9BF27600E58C76 /* XMGVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C741C9BF27600E58C76 /* XMGVoiceViewController.m */; };
+		704A2C7B1C9BF27600E58C76 /* XMGWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C761C9BF27600E58C76 /* XMGWordViewController.m */; };
+		704A2C7E1C9C02A500E58C76 /* XMGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A2C7D1C9C02A500E58C76 /* XMGConst.m */; };
+		706DEB181CA3C88200D7F42F /* XMGTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 706DEB171CA3C88200D7F42F /* XMGTopicVideoView.m */; };
+		706DEB1A1CA3C8C400D7F42F /* XMGTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706DEB191CA3C8C400D7F42F /* XMGTopicVideoView.xib */; };
+		706DEB1D1CA3C8FD00D7F42F /* XMGTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 706DEB1C1CA3C8FD00D7F42F /* XMGTopicVoiceView.m */; };
+		706DEB201CA3C90900D7F42F /* XMGTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 706DEB1F1CA3C90900D7F42F /* XMGTopicPictureView.m */; };
+		706DEB231CA3C92100D7F42F /* XMGTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706DEB211CA3C92100D7F42F /* XMGTopicPictureView.xib */; };
+		706DEB241CA3C92100D7F42F /* XMGTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706DEB221CA3C92100D7F42F /* XMGTopicVoiceView.xib */; };
 		7097A1861C98FE3900231962 /* XMGSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7097A1841C98FE3900231962 /* XMGSquareCell.m */; };
 		7097A1871C98FE3900231962 /* XMGSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7097A1851C98FE3900231962 /* XMGSquareCell.xib */; };
 		7097A18A1C9905E900231962 /* XMGSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7097A1891C9905E900231962 /* XMGSquareItem.m */; };
@@ -44,6 +62,9 @@
 		70AB495A1C9935CF0044E502 /* XMGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AB49581C9935CF0044E502 /* XMGWebViewController.m */; };
 		70AB495B1C9935CF0044E502 /* XMGWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AB49591C9935CF0044E502 /* XMGWebViewController.xib */; };
 		70AB495D1C99392F0044E502 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AB495C1C99392F0044E502 /* WebKit.framework */; };
+		70B89CD71CA78196005E2629 /* XMGSeeBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B89CD61CA78196005E2629 /* XMGSeeBigPictureViewController.m */; };
+		70B89CD91CA7819C005E2629 /* XMGSeeBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70B89CD81CA7819C005E2629 /* XMGSeeBigPictureViewController.xib */; };
+		70BC0E651CA618FE007AE64F /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC0E641CA618FE007AE64F /* UIImageView+Download.m */; };
 		70CB981B1C93B788003A01DD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CB981A1C93B788003A01DD /* UIView+Frame.m */; };
 		70CB981F1C93C341003A01DD /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CB981E1C93C341003A01DD /* UIBarButtonItem+Item.m */; };
 		70CB98221C93C963003A01DD /* XMGNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CB98211C93C963003A01DD /* XMGNavigationViewController.m */; };
@@ -60,7 +81,9 @@
 		70D569211C98EB1000B36123 /* XMGLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D569201C98EB1000B36123 /* XMGLoginField.m */; };
 		70D569241C98F16C00B36123 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D569231C98F16C00B36123 /* UITextField+Placeholder.m */; };
 		70D569261C98FAD500B36123 /* XMGMeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D569251C98FAD500B36123 /* XMGMeViewController.storyboard */; };
-		80833DB78E885CF5C42CBFBC /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9698F3A252EB2F21E0916F /* libPods-BuDeJie.a */; };
+		70DA8DDA1CA0F74400493189 /* XMGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA8DD91CA0F74400493189 /* XMGTopic.m */; };
+		70DA8DDD1CA247C700493189 /* XMGTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA8DDC1CA247C700493189 /* XMGTopicCell.m */; };
+		70DA8DF31CA2848600493189 /* XMGTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DA8DF21CA2848600493189 /* XMGTopicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,12 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CB3D27268FE7FC0070D3B5 /* XMGFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFileTool.h; sourceTree = "<group>"; };
-		00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFileTool.m; sourceTree = "<group>"; };
-		00CB3D2A268FF1B20070D3B5 /* XMGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTestViewController.h; sourceTree = "<group>"; };
-		00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTestViewController.m; sourceTree = "<group>"; };
-		00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTestViewController.xib; sourceTree = "<group>"; };
-		0F9698F3A252EB2F21E0916F /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C862AF191D7907170D991C2 /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		700334A21C92758C00B04292 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700334AF1C92758C00B04292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		700334B11C92758C00B04292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +123,16 @@
 		700334F91C92B7FA00B04292 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 		700334FC1C92BEE000B04292 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		700334FD1C92BEE000B04292 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		70085CDE1CAA0F0A00C08708 /* XMGRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGRefreshHeader.h; sourceTree = "<group>"; };
+		70085CDF1CAA0F0A00C08708 /* XMGRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGRefreshHeader.m; sourceTree = "<group>"; };
+		70085CE11CAA110700C08708 /* XMGTestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTestHeader.h; sourceTree = "<group>"; };
+		70085CE21CAA110700C08708 /* XMGTestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTestHeader.m; sourceTree = "<group>"; };
+		70085CE41CAA121E00C08708 /* XMGDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDIYHeader.h; sourceTree = "<group>"; };
+		70085CE51CAA121E00C08708 /* XMGDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDIYHeader.m; sourceTree = "<group>"; };
+		70085CE71CAA16B600C08708 /* XMGDIYFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDIYFooter.h; sourceTree = "<group>"; };
+		70085CE81CAA16B600C08708 /* XMGDIYFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDIYFooter.m; sourceTree = "<group>"; };
+		70085CEA1CAA17E900C08708 /* XMGHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHTTPSessionManager.h; sourceTree = "<group>"; };
+		70085CEB1CAA17E900C08708 /* XMGHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHTTPSessionManager.m; sourceTree = "<group>"; };
 		700BD55F1C9806F700B4E90B /* XMGFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFastLoginView.h; sourceTree = "<group>"; };
 		700BD5601C9806F700B4E90B /* XMGFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFastLoginView.m; sourceTree = "<group>"; };
 		700BD5621C98070100B4E90B /* XMGFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFastLoginView.xib; sourceTree = "<group>"; };
@@ -125,9 +153,36 @@
 		7019DB6A1C97F3B900E614F4 /* XMGLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginRegisterViewController.h; sourceTree = "<group>"; };
 		7019DB6B1C97F3B900E614F4 /* XMGLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginRegisterViewController.m; sourceTree = "<group>"; };
 		7019DB6C1C97F3B900E614F4 /* XMGLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		7021DC561CA90E1600B1AC2A /* XMGTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicViewController.h; sourceTree = "<group>"; };
+		7021DC571CA90E1600B1AC2A /* XMGTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicViewController.m; sourceTree = "<group>"; };
 		70432A731C97F8C8008E4679 /* XMGLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginRegisterView.h; sourceTree = "<group>"; };
 		70432A741C97F8C8008E4679 /* XMGLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginRegisterView.m; sourceTree = "<group>"; };
 		70432A761C97F8DD008E4679 /* XMGLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginRegisterView.xib; sourceTree = "<group>"; };
+		704601861C99536100243B72 /* XMGFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFileTool.h; sourceTree = "<group>"; };
+		704601871C99536100243B72 /* XMGFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFileTool.m; sourceTree = "<group>"; };
+		704A2C571C9BB17700E58C76 /* XMGTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTitleButton.h; sourceTree = "<group>"; };
+		704A2C581C9BB17700E58C76 /* XMGTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTitleButton.m; sourceTree = "<group>"; };
+		704A2C6D1C9BF27600E58C76 /* XMGAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAllViewController.h; sourceTree = "<group>"; };
+		704A2C6E1C9BF27600E58C76 /* XMGAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAllViewController.m; sourceTree = "<group>"; };
+		704A2C6F1C9BF27600E58C76 /* XMGPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPictureViewController.h; sourceTree = "<group>"; };
+		704A2C701C9BF27600E58C76 /* XMGPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPictureViewController.m; sourceTree = "<group>"; };
+		704A2C711C9BF27600E58C76 /* XMGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVideoViewController.h; sourceTree = "<group>"; };
+		704A2C721C9BF27600E58C76 /* XMGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVideoViewController.m; sourceTree = "<group>"; };
+		704A2C731C9BF27600E58C76 /* XMGVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVoiceViewController.h; sourceTree = "<group>"; };
+		704A2C741C9BF27600E58C76 /* XMGVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVoiceViewController.m; sourceTree = "<group>"; };
+		704A2C751C9BF27600E58C76 /* XMGWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGWordViewController.h; sourceTree = "<group>"; };
+		704A2C761C9BF27600E58C76 /* XMGWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWordViewController.m; sourceTree = "<group>"; };
+		704A2C7C1C9C02A500E58C76 /* XMGConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGConst.h; sourceTree = "<group>"; };
+		704A2C7D1C9C02A500E58C76 /* XMGConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGConst.m; sourceTree = "<group>"; };
+		706DEB161CA3C88200D7F42F /* XMGTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVideoView.h; sourceTree = "<group>"; };
+		706DEB171CA3C88200D7F42F /* XMGTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVideoView.m; sourceTree = "<group>"; };
+		706DEB191CA3C8C400D7F42F /* XMGTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVideoView.xib; sourceTree = "<group>"; };
+		706DEB1B1CA3C8FD00D7F42F /* XMGTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicVoiceView.h; sourceTree = "<group>"; };
+		706DEB1C1CA3C8FD00D7F42F /* XMGTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicVoiceView.m; sourceTree = "<group>"; };
+		706DEB1E1CA3C90900D7F42F /* XMGTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicPictureView.h; sourceTree = "<group>"; };
+		706DEB1F1CA3C90900D7F42F /* XMGTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicPictureView.m; sourceTree = "<group>"; };
+		706DEB211CA3C92100D7F42F /* XMGTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicPictureView.xib; sourceTree = "<group>"; };
+		706DEB221CA3C92100D7F42F /* XMGTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicVoiceView.xib; sourceTree = "<group>"; };
 		7097A1831C98FE3900231962 /* XMGSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSquareCell.h; sourceTree = "<group>"; };
 		7097A1841C98FE3900231962 /* XMGSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSquareCell.m; sourceTree = "<group>"; };
 		7097A1851C98FE3900231962 /* XMGSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSquareCell.xib; sourceTree = "<group>"; };
@@ -139,6 +194,11 @@
 		70AB49581C9935CF0044E502 /* XMGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWebViewController.m; sourceTree = "<group>"; };
 		70AB49591C9935CF0044E502 /* XMGWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGWebViewController.xib; sourceTree = "<group>"; };
 		70AB495C1C99392F0044E502 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		70B89CD51CA78196005E2629 /* XMGSeeBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSeeBigPictureViewController.h; sourceTree = "<group>"; };
+		70B89CD61CA78196005E2629 /* XMGSeeBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSeeBigPictureViewController.m; sourceTree = "<group>"; };
+		70B89CD81CA7819C005E2629 /* XMGSeeBigPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSeeBigPictureViewController.xib; sourceTree = "<group>"; };
+		70BC0E631CA618FE007AE64F /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
+		70BC0E641CA618FE007AE64F /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
 		70CB98191C93B788003A01DD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		70CB981A1C93B788003A01DD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		70CB981C1C93B976003A01DD /* BuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
@@ -163,8 +223,13 @@
 		70D569221C98F16C00B36123 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
 		70D569231C98F16C00B36123 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
 		70D569251C98FAD500B36123 /* XMGMeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XMGMeViewController.storyboard; sourceTree = "<group>"; };
-		7F70F54FF0532259B6E7A2D8 /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
-		E34F1697F19EEF6788BF2BAE /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		70DA8DD81CA0F74400493189 /* XMGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopic.h; sourceTree = "<group>"; };
+		70DA8DD91CA0F74400493189 /* XMGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopic.m; sourceTree = "<group>"; };
+		70DA8DDB1CA247C700493189 /* XMGTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTopicCell.h; sourceTree = "<group>"; };
+		70DA8DDC1CA247C700493189 /* XMGTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTopicCell.m; sourceTree = "<group>"; };
+		70DA8DF21CA2848600493189 /* XMGTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGTopicCell.xib; sourceTree = "<group>"; };
+		7A2C0E6FFA3DA3235BE4C0F1 /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE25FB3D599626EFD20B324 /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70AB495D1C99392F0044E502 /* WebKit.framework in Frameworks */,
-				80833DB78E885CF5C42CBFBC /* libPods-BuDeJie.a in Frameworks */,
+				5DDF301891A369FF494ABBB4 /* libPods-BuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,28 +252,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00CB3D25268FE7FC0070D3B5 /* Tool */ = {
+		3406DD7E3809D0AAE6E318A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00CB3D26268FE7FC0070D3B5 /* File */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		00CB3D26268FE7FC0070D3B5 /* File */ = {
-			isa = PBXGroup;
-			children = (
-				00CB3D27268FE7FC0070D3B5 /* XMGFileTool.h */,
-				00CB3D28268FE7FC0070D3B5 /* XMGFileTool.m */,
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
-		0BE1C411555DB0301DBB000E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E34F1697F19EEF6788BF2BAE /* Pods-BuDeJie.debug.xcconfig */,
-				7F70F54FF0532259B6E7A2D8 /* Pods-BuDeJie.release.xcconfig */,
+				7A2C0E6FFA3DA3235BE4C0F1 /* Pods-BuDeJie.debug.xcconfig */,
+				7DE25FB3D599626EFD20B324 /* Pods-BuDeJie.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -220,7 +268,7 @@
 				700334BE1C92758C00B04292 /* BuDeJieUITests */,
 				700334A31C92758C00B04292 /* Products */,
 				864571F022EED76A273ED33E /* Frameworks */,
-				0BE1C411555DB0301DBB000E /* Pods */,
+				3406DD7E3809D0AAE6E318A0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,7 +314,7 @@
 		700334CA1C92A96D00B04292 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00CB3D25268FE7FC0070D3B5 /* Tool */,
+				704601841C99534D00243B72 /* Tool */,
 				70CB982A1C940269003A01DD /* AD(广告) */,
 				70CB98231C93CAED003A01DD /* Setting(设置) */,
 				700334F41C92B7DC00B04292 /* Main(主要) */,
@@ -295,6 +343,10 @@
 			children = (
 				700334E51C92A9BC00B04292 /* XMGEssenceViewController.h */,
 				700334E61C92A9BC00B04292 /* XMGEssenceViewController.m */,
+				70B89CD51CA78196005E2629 /* XMGSeeBigPictureViewController.h */,
+				70B89CD61CA78196005E2629 /* XMGSeeBigPictureViewController.m */,
+				70B89CD81CA7819C005E2629 /* XMGSeeBigPictureViewController.xib */,
+				7021DC591CA90E1B00B1AC2A /* Topic */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +354,8 @@
 		700334CD1C92A96D00B04292 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70DA8DD81CA0F74400493189 /* XMGTopic.h */,
+				70DA8DD91CA0F74400493189 /* XMGTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +363,20 @@
 		700334CE1C92A96D00B04292 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				704A2C571C9BB17700E58C76 /* XMGTitleButton.h */,
+				704A2C581C9BB17700E58C76 /* XMGTitleButton.m */,
+				70DA8DDB1CA247C700493189 /* XMGTopicCell.h */,
+				70DA8DDC1CA247C700493189 /* XMGTopicCell.m */,
+				70DA8DF21CA2848600493189 /* XMGTopicCell.xib */,
+				706DEB161CA3C88200D7F42F /* XMGTopicVideoView.h */,
+				706DEB171CA3C88200D7F42F /* XMGTopicVideoView.m */,
+				706DEB191CA3C8C400D7F42F /* XMGTopicVideoView.xib */,
+				706DEB1B1CA3C8FD00D7F42F /* XMGTopicVoiceView.h */,
+				706DEB1C1CA3C8FD00D7F42F /* XMGTopicVoiceView.m */,
+				706DEB221CA3C92100D7F42F /* XMGTopicVoiceView.xib */,
+				706DEB1E1CA3C90900D7F42F /* XMGTopicPictureView.h */,
+				706DEB1F1CA3C90900D7F42F /* XMGTopicPictureView.m */,
+				706DEB211CA3C92100D7F42F /* XMGTopicPictureView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,9 +400,6 @@
 				7019DB6A1C97F3B900E614F4 /* XMGLoginRegisterViewController.h */,
 				7019DB6B1C97F3B900E614F4 /* XMGLoginRegisterViewController.m */,
 				7019DB6C1C97F3B900E614F4 /* XMGLoginRegisterViewController.xib */,
-				00CB3D2A268FF1B20070D3B5 /* XMGTestViewController.h */,
-				00CB3D2B268FF1B20070D3B5 /* XMGTestViewController.m */,
-				00CB3D2C268FF1B20070D3B5 /* XMGTestViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -453,6 +518,8 @@
 				700334DD1C92A96D00B04292 /* AppDelegate.m */,
 				700334DE1C92A96D00B04292 /* main.m */,
 				70CB981C1C93B976003A01DD /* BuDeJie.pch */,
+				704A2C7C1C9C02A500E58C76 /* XMGConst.h */,
+				704A2C7D1C9C02A500E58C76 /* XMGConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -496,6 +563,8 @@
 				700334F51C92B7DC00B04292 /* Controller */,
 				700334F61C92B7DC00B04292 /* Model */,
 				700334F71C92B7DC00B04292 /* View */,
+				70085CEA1CAA17E900C08708 /* XMGHTTPSessionManager.h */,
+				70085CEB1CAA17E900C08708 /* XMGHTTPSessionManager.m */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -523,6 +592,14 @@
 			children = (
 				70A742191C93A99400BFA6FA /* XMGTabBar.h */,
 				70A7421A1C93A99400BFA6FA /* XMGTabBar.m */,
+				70085CDE1CAA0F0A00C08708 /* XMGRefreshHeader.h */,
+				70085CDF1CAA0F0A00C08708 /* XMGRefreshHeader.m */,
+				70085CE11CAA110700C08708 /* XMGTestHeader.h */,
+				70085CE21CAA110700C08708 /* XMGTestHeader.m */,
+				70085CE41CAA121E00C08708 /* XMGDIYHeader.h */,
+				70085CE51CAA121E00C08708 /* XMGDIYHeader.m */,
+				70085CE71CAA16B600C08708 /* XMGDIYFooter.h */,
+				70085CE81CAA16B600C08708 /* XMGDIYFooter.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -540,8 +617,46 @@
 				70CB981E1C93C341003A01DD /* UIBarButtonItem+Item.m */,
 				70D569221C98F16C00B36123 /* UITextField+Placeholder.h */,
 				70D569231C98F16C00B36123 /* UITextField+Placeholder.m */,
+				70BC0E631CA618FE007AE64F /* UIImageView+Download.h */,
+				70BC0E641CA618FE007AE64F /* UIImageView+Download.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		7021DC591CA90E1B00B1AC2A /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				7021DC561CA90E1600B1AC2A /* XMGTopicViewController.h */,
+				7021DC571CA90E1600B1AC2A /* XMGTopicViewController.m */,
+				704A2C6D1C9BF27600E58C76 /* XMGAllViewController.h */,
+				704A2C6E1C9BF27600E58C76 /* XMGAllViewController.m */,
+				704A2C711C9BF27600E58C76 /* XMGVideoViewController.h */,
+				704A2C721C9BF27600E58C76 /* XMGVideoViewController.m */,
+				704A2C731C9BF27600E58C76 /* XMGVoiceViewController.h */,
+				704A2C741C9BF27600E58C76 /* XMGVoiceViewController.m */,
+				704A2C6F1C9BF27600E58C76 /* XMGPictureViewController.h */,
+				704A2C701C9BF27600E58C76 /* XMGPictureViewController.m */,
+				704A2C751C9BF27600E58C76 /* XMGWordViewController.h */,
+				704A2C761C9BF27600E58C76 /* XMGWordViewController.m */,
+			);
+			name = Topic;
+			sourceTree = "<group>";
+		};
+		704601841C99534D00243B72 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				704601851C99534D00243B72 /* File */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		704601851C99534D00243B72 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				704601861C99536100243B72 /* XMGFileTool.h */,
+				704601871C99536100243B72 /* XMGFileTool.m */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 		70CB98231C93CAED003A01DD /* Setting(设置) */ = {
@@ -631,7 +746,7 @@
 			isa = PBXGroup;
 			children = (
 				70AB495C1C99392F0044E502 /* WebKit.framework */,
-				0F9698F3A252EB2F21E0916F /* libPods-BuDeJie.a */,
+				3C862AF191D7907170D991C2 /* libPods-BuDeJie.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -643,11 +758,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 700334C41C92758C00B04292 /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
-				F95B0780A49DD879163B5007 /* [CP] Check Pods Manifest.lock */,
+				3ADE56D10A3EB3029BE56A65 /* [CP] Check Pods Manifest.lock */,
 				7003349E1C92758C00B04292 /* Sources */,
 				7003349F1C92758C00B04292 /* Frameworks */,
 				700334A01C92758C00B04292 /* Resources */,
-				556C687828AEFFBA8F2B4C60 /* [CP] Copy Pods Resources */,
+				49549E21B51431994274BD93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -720,9 +835,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DA8DF31CA2848600493189 /* XMGTopicCell.xib in Resources */,
 				7019DB691C97EC2000E614F4 /* XMGFriendTrendViewController.xib in Resources */,
 				70CB98321C9404AB003A01DD /* XMGAdViewController.xib in Resources */,
 				70CB983F1C940868003A01DD /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				706DEB1A1CA3C8C400D7F42F /* XMGTopicVideoView.xib in Resources */,
 				700BD5631C98070100B4E90B /* XMGFastLoginView.xib in Resources */,
 				700334B51C92758C00B04292 /* LaunchScreen.storyboard in Resources */,
 				7097A1871C98FE3900231962 /* XMGSquareCell.xib in Resources */,
@@ -730,13 +847,15 @@
 				70D569261C98FAD500B36123 /* XMGMeViewController.storyboard in Resources */,
 				70CB98411C940868003A01DD /* LaunchImage@2x.png in Resources */,
 				7019DB641C97AD3B00E614F4 /* XMGSubTagCell.xib in Resources */,
+				706DEB241CA3C92100D7F42F /* XMGTopicVoiceView.xib in Resources */,
 				70AB495B1C9935CF0044E502 /* XMGWebViewController.xib in Resources */,
+				70B89CD91CA7819C005E2629 /* XMGSeeBigPictureViewController.xib in Resources */,
 				70432A771C97F8DD008E4679 /* XMGLoginRegisterView.xib in Resources */,
 				70CB983C1C940868003A01DD /* LaunchImage-700-568h@2x.png in Resources */,
-				00CB3D2E268FF1B20070D3B5 /* XMGTestViewController.xib in Resources */,
 				70CB983E1C940868003A01DD /* LaunchImage-800-667h@2x.png in Resources */,
 				70CB983B1C940868003A01DD /* LaunchImage-568h@2x.png in Resources */,
 				70CB98401C940868003A01DD /* LaunchImage.png in Resources */,
+				706DEB231CA3C92100D7F42F /* XMGTopicPictureView.xib in Resources */,
 				700334B21C92758C00B04292 /* Assets.xcassets in Resources */,
 				70CB983D1C940868003A01DD /* LaunchImage-700@2x.png in Resources */,
 				700334B01C92758C00B04292 /* Main.storyboard in Resources */,
@@ -753,7 +872,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		556C687828AEFFBA8F2B4C60 /* [CP] Copy Pods Resources */ = {
+		3ADE56D10A3EB3029BE56A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49549E21B51431994274BD93 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -773,24 +910,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F95B0780A49DD879163B5007 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -799,19 +918,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				7019DB671C97BCE500E614F4 /* UIImage+Antialias.m in Sources */,
+				704A2C7B1C9BF27600E58C76 /* XMGWordViewController.m in Sources */,
+				70B89CD71CA78196005E2629 /* XMGSeeBigPictureViewController.m in Sources */,
 				70A7421B1C93A99400BFA6FA /* XMGTabBar.m in Sources */,
+				706DEB181CA3C88200D7F42F /* XMGTopicVideoView.m in Sources */,
+				70085CE01CAA0F0A00C08708 /* XMGRefreshHeader.m in Sources */,
 				70D569211C98EB1000B36123 /* XMGLoginField.m in Sources */,
+				70DA8DDA1CA0F74400493189 /* XMGTopic.m in Sources */,
+				706DEB201CA3C90900D7F42F /* XMGTopicPictureView.m in Sources */,
 				70432A751C97F8C8008E4679 /* XMGLoginRegisterView.m in Sources */,
-				00CB3D29268FE7FC0070D3B5 /* XMGFileTool.m in Sources */,
+				704601881C99536100243B72 /* XMGFileTool.m in Sources */,
+				70DA8DDD1CA247C700493189 /* XMGTopicCell.m in Sources */,
 				70CB981F1C93C341003A01DD /* UIBarButtonItem+Item.m in Sources */,
 				70D569241C98F16C00B36123 /* UITextField+Placeholder.m in Sources */,
+				704A2C7E1C9C02A500E58C76 /* XMGConst.m in Sources */,
 				7097A18A1C9905E900231962 /* XMGSquareItem.m in Sources */,
+				70085CE91CAA16B600C08708 /* XMGDIYFooter.m in Sources */,
+				7021DC581CA90E1600B1AC2A /* XMGTopicViewController.m in Sources */,
 				700334ED1C92A9EC00B04292 /* XMGMeViewController.m in Sources */,
 				7019DB631C97AD3B00E614F4 /* XMGSubTagCell.m in Sources */,
 				7019DB5C1C97A91F00E614F4 /* XMGSubTagViewController.m in Sources */,
 				7019DB6D1C97F3B900E614F4 /* XMGLoginRegisterViewController.m in Sources */,
 				700334E71C92A9BC00B04292 /* XMGEssenceViewController.m in Sources */,
 				700334F31C92AA0B00B04292 /* XMGPublishViewController.m in Sources */,
+				704A2C7A1C9BF27600E58C76 /* XMGVoiceViewController.m in Sources */,
 				700334FE1C92BEE000B04292 /* UIImage+Image.m in Sources */,
 				700BD5611C9806F700B4E90B /* XMGFastLoginView.m in Sources */,
 				7019DB591C979B3100E614F4 /* XMGADItem.m in Sources */,
@@ -819,16 +949,24 @@
 				70CB98291C93CB02003A01DD /* XMGSettingViewController.m in Sources */,
 				7019DB5F1C97AB9200E614F4 /* XMGSubTagItem.m in Sources */,
 				700334F01C92A9FC00B04292 /* XMGNewViewController.m in Sources */,
+				706DEB1D1CA3C8FD00D7F42F /* XMGTopicVoiceView.m in Sources */,
+				70085CEC1CAA17E900C08708 /* XMGHTTPSessionManager.m in Sources */,
+				704A2C781C9BF27600E58C76 /* XMGPictureViewController.m in Sources */,
+				704A2C771C9BF27600E58C76 /* XMGAllViewController.m in Sources */,
+				704A2C791C9BF27600E58C76 /* XMGVideoViewController.m in Sources */,
+				704A2C591C9BB17700E58C76 /* XMGTitleButton.m in Sources */,
+				70085CE61CAA121E00C08708 /* XMGDIYHeader.m in Sources */,
 				700BD5661C98099200B4E90B /* XMGFastButton.m in Sources */,
 				70AB495A1C9935CF0044E502 /* XMGWebViewController.m in Sources */,
 				70CB98301C940299003A01DD /* XMGAdViewController.m in Sources */,
 				700334FA1C92B7FA00B04292 /* XMGTabBarController.m in Sources */,
+				70085CE31CAA110700C08708 /* XMGTestHeader.m in Sources */,
 				70CB98221C93C963003A01DD /* XMGNavigationViewController.m in Sources */,
 				700334EA1C92A9CC00B04292 /* XMGFriendTrendViewController.m in Sources */,
 				700334E41C92A96D00B04292 /* main.m in Sources */,
 				700334E31C92A96D00B04292 /* AppDelegate.m in Sources */,
+				70BC0E651CA618FE007AE64F /* UIImageView+Download.m in Sources */,
 				70CB981B1C93B788003A01DD /* UIView+Frame.m in Sources */,
-				00CB3D2D268FF1B20070D3B5 /* XMGTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,7 +1090,7 @@
 		};
 		700334C51C92758C00B04292 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34F1697F19EEF6788BF2BAE /* Pods-BuDeJie.debug.xcconfig */;
+			baseConfigurationReference = 7A2C0E6FFA3DA3235BE4C0F1 /* Pods-BuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -968,7 +1106,7 @@
 		};
 		700334C61C92758C00B04292 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F70F54FF0532259B6E7A2D8 /* Pods-BuDeJie.release.xcconfig */;
+			baseConfigurationReference = 7DE25FB3D599626EFD20B324 /* Pods-BuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

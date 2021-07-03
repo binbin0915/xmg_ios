@@ -6,12 +6,40 @@
 //  Copyright © 2016年 小码哥. All rights reserved.
 //
 
+/*
+ D : NSObject
+ - (void)run;
+ - (void)test;
+ 
+ F : NSObject
+ - (void)study;
+ 
+ A : UITableViewController
+ [D run]
+ [D test]
+ [F study]
+ - (void)a;
+ 
+ C : UICollectionViewController
+ [D run]
+ [D test]
+ [F study]
+ - (void)c;
+ 
+ E : UIViewController
+ [D run]
+ [D test]
+ [F study]
+ */
+
 #import "XMGSubTagViewController.h"
 #import <AFNetworking/AFNetworking.h>
 #import "XMGSubTagItem.h"
 #import <MJExtension/MJExtension.h>
 #import "XMGSubTagCell.h"
 #import <SVProgressHUD/SVProgressHUD.h>
+#import "XMGRefreshHeader.h"
+#import "XMGDIYHeader.h"
 
 static NSString * const ID = @"cell";
 
@@ -42,7 +70,21 @@ static NSString * const ID = @"cell";
     
     // 提示用户当前正在加载数据 SVPro
     [SVProgressHUD showWithStatus:@"正在加载ing....."];
+    
+    [self setupRefresh];
 }
+
+- (void)setupRefresh
+{
+    // header
+    self.tableView.mj_header = [XMGDIYHeader headerWithRefreshingBlock:^{
+        XMGFunc
+    }];
+    
+    // footer
+    
+}
+
 // 界面即将消失调用
 - (void)viewWillDisappear:(BOOL)animated
 {
@@ -61,7 +103,8 @@ static NSString * const ID = @"cell";
 {
     // 1.创建请求会话管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
-    
+    mgr.responseSerializer.acceptableContentTypes =[NSSet setWithObjects:@"application/json", @"application/problem+json", @"text/javascript",@"text/html", nil ,nil];
+
     _mgr = mgr;
     
     // 2.拼接参数
@@ -71,7 +114,7 @@ static NSString * const ID = @"cell";
     parameters[@"c"] = @"topic";
     
     // 3.发送请求
-    [mgr GET:@"https://www.fastmock.site/mock/509bb30c24bf348152f52f21ad121980/api/topic/tag_recommend" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSArray *  _Nullable responseObject) {
+    [mgr GET:XMGCommonURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSArray *  _Nullable responseObject) {
         
         [SVProgressHUD dismiss];
         // 字典数组转换模型数组
@@ -83,9 +126,6 @@ static NSString * const ID = @"cell";
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [SVProgressHUD dismiss];
     }];
-
-   
-    
 }
 
 #pragma mark - Table view data source

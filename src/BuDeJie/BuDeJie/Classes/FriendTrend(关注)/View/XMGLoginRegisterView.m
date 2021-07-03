@@ -34,7 +34,6 @@
     
    // 让按钮背景图片不要被拉伸
     [_loginRegisterButton setBackgroundImage:image forState:UIControlStateNormal];
-    [super awakeFromNib];
 }
 
 @end

@@ -101,6 +101,7 @@
     // 1.创建请求会话管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     mgr.responseSerializer.acceptableContentTypes =[NSSet setWithObjects:@"application/json", @"application/problem+json", @"text/javascript",@"text/html", nil ,nil];
+
     
     // 2.拼接参数
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
@@ -109,7 +110,7 @@
     // 3.发送请求
     [mgr GET:@"http://mobads.baidu.com/cpro/ui/mads.php" parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary * _Nullable responseObject) {
         
-//        [responseObject writeToFile:@"/Users/xiaomage/Desktop/课堂共享/11大神班上课资料/08-项目/0315/代码/04-广告/ad.plist" atomically:YES];
+        [responseObject writeToFile:@"/Users/xiaomage/Desktop/课堂共享/11大神班上课资料/08-项目/0315/代码/04-广告/ad.plist" atomically:YES];
         // 请求数据 -> 解析数据(写成plist文件) -> 设计模型 -> 字典转模型 -> 展示数据
         // 获取字典
         NSDictionary *adDict = [responseObject[@"ad"] lastObject];
@@ -118,9 +119,9 @@
         _item = [XMGADItem mj_objectWithKeyValues:adDict];
         
         // 创建UIImageView展示图片 =>
-//        CGFloat h = XMGScreenW / _item.w * _item.h;
+        CGFloat h = XMGScreenW / _item.w * _item.h;
         
-        self.adView.frame = CGRectMake(0, 0, XMGScreenW, XMGScreenH);
+        self.adView.frame = CGRectMake(0, 0, XMGScreenW, h);
         // 加载广告网页
         [self.adView sd_setImageWithURL:[NSURL URLWithString:_item.w_picurl]];
         

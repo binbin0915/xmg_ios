@@ -8,26 +8,36 @@
 
 #import "AppDelegate.h"
 #import "XMGAdViewController.h"
+#import "XMGTabBarController.h"
+#import <AFNetworking.h>
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+#pragma mark - <UIApplicationDelegate>
 // 程序启动的时候就会调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     // 1.创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置窗口根控制器
-    XMGAdViewController *adVc = [[XMGAdViewController alloc] init];
-    // init ->  initWithNibName 1.首先判断有没有指定nibName 2.判断下有没有跟类名同名xib
-    self.window.rootViewController = adVc;
+    self.window.rootViewController = [[XMGTabBarController alloc] init];
+    
+//    XMGAdViewController *adVc = [[XMGAdViewController alloc] init];
+//    // init ->  initWithNibName 1.首先判断有没有指定nibName 2.判断下有没有跟类名同名xib
+//    self.window.rootViewController = adVc;
     
     // 3.显示窗口 1.成为UIApplication主窗口 2.
     [self.window makeKeyAndVisible];
     
+    // 4.开始监控网络状况
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    // 5.每次启动程序，都清除过期的图片
+//    [[SDImageCache sharedImageCache] cleanDisk];
     return YES;
 }
 
